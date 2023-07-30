@@ -1,0 +1,23 @@
+.loading {
+  position: fixed;
+  //max-width: 420px;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #00000055;
+  display: none;
+
+  &.active {
+    display: block;
+  }
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 192px;
+    height: 192px;
+  }
+}
